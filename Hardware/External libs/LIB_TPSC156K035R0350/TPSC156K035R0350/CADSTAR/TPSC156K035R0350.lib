@@ -1,0 +1,16 @@
+.TPSC156K035R0350 :1 ;AVX 15uF Solid Electrolytic Electrolytic Capacitor, 35 V dc +/-10%, TPS Series
+CAPCP6032X280N
+*STM C
+*NGS
+*PLB 1="C1" 2="C2"
+*MXP 2
+*DFN TPSC156K035R0350
+~!Mouser Part Number (581-TPSC156K035R0350)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=581-TPSC156K035R0350)
+~!Manufacturer_Name (Kyocera AVX)
+~!Manufacturer_Part_Number (TPSC156K035R0350)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/TPSC156K035R0350.pdf)
+~!Height (-)
+~!3D_Model (TPSC156K035R0350)
+TPSC156K035R0350
+1.1!U 2.1!U 

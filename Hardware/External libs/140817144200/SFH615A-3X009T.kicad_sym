@@ -1,0 +1,260 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "WL-OCPT_DIP4_SML-TYPE" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WL-OCP_DIP4_SLM-TYPE" (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "WL-OCPT_DIP4_SLM-TYPE:WL-OCPT_DIP4_SLM-TYPE" (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "WL-OCPT_DIP4_SML-TYPE_0_0"
+      (polyline
+        (pts
+          (xy -10.16 -5.08)
+          (xy 10.16 -5.08)
+        )
+        (stroke (width 0.4064) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 -2.54)
+          (xy -10.16 -5.08)
+        )
+        (stroke (width 0.4064) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 -2.54)
+          (xy -10.16 2.54)
+        )
+        (stroke (width 0.4064) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 2.54)
+          (xy -10.16 5.08)
+        )
+        (stroke (width 0.4064) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 2.54)
+          (xy -5.08 2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 5.08)
+          (xy 10.16 5.08)
+        )
+        (stroke (width 0.4064) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -2.54)
+          (xy -10.16 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -1.27)
+          (xy -6.35 -1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -1.27)
+          (xy -6.35 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -1.27)
+          (xy -5.08 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 1.27)
+          (xy -6.35 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 1.27)
+          (xy -5.08 -1.27)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 1.27)
+          (xy -5.08 2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 -1.27)
+          (xy -5.08 -1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 1.27)
+          (xy -5.08 -1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 1.27)
+          (xy -5.08 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.556 -0.508)
+          (xy -1.524 -1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.048 1.016)
+          (xy -1.016 0.254)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.826 0)
+          (xy 7.366 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.826 0)
+          (xy 7.366 2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.366 -2.54)
+          (xy 10.16 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.906 2.54)
+          (xy 7.366 2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -5.08)
+          (xy 10.16 -2.54)
+        )
+        (stroke (width 0.4064) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -2.54)
+          (xy 10.16 5.08)
+        )
+        (stroke (width 0.4064) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.397 -0.889)
+          (xy -0.508 -1.778)
+          (xy -1.778 -1.524)
+          (xy -1.397 -0.889)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -0.889 0.635)
+          (xy 0 -0.254)
+          (xy -1.27 0)
+          (xy -0.889 0.635)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 6.731 -1.397)
+          (xy 6.096 -2.032)
+          (xy 7.112 -2.286)
+          (xy 6.731 -1.397)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type outline))
+      )
+      (rectangle (start 4.4497 -2.0342) (end 5.207 2.032)
+        (stroke (width 0.1) (type default))
+        (fill (type outline))
+      )
+      (pin passive line (at -15.24 2.54 0) (length 5.08)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at -15.24 -2.54 0) (length 5.08)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 15.24 -2.54 180) (length 5.08)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "3" (effects (font (size 1.016 1.016))))
+      )
+      (pin passive line (at 15.24 2.54 180) (length 5.08)
+        (name "~" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
+)

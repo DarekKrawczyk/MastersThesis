@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP P0846SNL
+D Fixed Inductors 260KHZ SWITCHER IND
+K
+F https://datasheet.datasheetarchive.com/originals/dk/DKDS-10/182482.pdf
+$ENDCMP
+#
+#End Doc Library

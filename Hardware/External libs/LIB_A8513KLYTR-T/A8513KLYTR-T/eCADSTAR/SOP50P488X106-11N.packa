@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "A8513KLYTR-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-05-27-08:59:12)
+    (mountForm default
+        (footprintRef "SOP50P488X106-11N")
+        (spec "System")
+    )
+)

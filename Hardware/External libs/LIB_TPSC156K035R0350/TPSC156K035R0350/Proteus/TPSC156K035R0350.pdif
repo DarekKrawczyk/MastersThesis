@@ -1,0 +1,173 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPSC156K035R0350"
+   (description "AVX 15uF Solid Electrolytic Electrolytic Capacitor, 35 V dc +/-10%, TPS Series")
+   (family "CAP")
+   (package "CAPCP6032X280N")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/TPSC156K035R0350.pdf")
+   (attribute "Mouser Part Number" "581-TPSC156K035R0350")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-TPSC156K035R0350")
+   (attribute "Manufacturer_Name" "Kyocera AVX")
+   (attribute "Manufacturer_Part_Number" "TPSC156K035R0350")
+   (gate
+    (symbol "TPSC156K035R0350")
+    (pin "C1" 1 PS)
+    (pin "C2" 2 PS)
+   )
+  )
+  (symbol "TPSC156K035R0350"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPCP6032X280N"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 3.0988 1.5494)
+      (pt 3.0988 1.7018))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -3.0988 -1.5494)
+      (pt -3.0988 -1.7018))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -4.2926 0)
+      (pt -5.0546 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -4.6736 0.381)
+      (pt -4.6736 -0.381))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -3.0988 -1.7018)
+      (pt 3.0988 -1.7018))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 3.0988 -1.7018)
+      (pt 3.0988 -1.5494))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 3.0988 1.7018)
+      (pt -3.0988 1.7018))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -3.0988 1.7018)
+      (pt -3.0988 1.5494))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -4.2926 0)
+      (pt -5.0546 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -4.6736 0.381)
+      (pt -4.6736 -0.381))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -3.0988 -1.7018)
+      (pt 3.0988 -1.7018))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 3.0988 -1.7018)
+      (pt 3.0988 1.7018))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 3.0988 1.7018)
+      (pt -3.0988 1.7018))))
+   (layer TASM
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -3.0988 1.7018)
+      (pt -3.0988 -1.7018))))
+   (leg 1 (pt -2.1336 0) (padstack 0))
+   (leg 2 (pt 2.1336 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.2606 2.413 0 0 90))
+   )
+   (model "TPSC156K035R0350.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LTC2439-1IGN#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=28
+Version=1.1
+Released=2020-10-20 12:12:08
+Downloaded=2023-12-04 12:15:52
+3D=Y

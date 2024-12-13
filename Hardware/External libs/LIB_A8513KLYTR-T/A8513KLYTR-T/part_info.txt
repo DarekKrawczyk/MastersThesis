@@ -1,0 +1,9 @@
+Manufacturer=Allegro Microsystems
+PartNumber=A8513KLYTR-T
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=11
+Version=10.1
+Released=2022-02-06 07:51:19
+Downloaded=2023-12-05 09:51:30
+3D=Y

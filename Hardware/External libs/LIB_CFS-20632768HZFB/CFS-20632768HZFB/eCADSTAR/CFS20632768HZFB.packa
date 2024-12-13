@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CFS-20632768HZFB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-02-03-08:25:29)
+    (mountForm default
+        (footprintRef "CFS20632768HZFB")
+        (spec "System")
+    )
+)

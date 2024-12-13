@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_638470"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-03-08:25:29)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CFS-20632768HZFB")
+)
+
+
+(pinAssign "ECS_638470"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-03-08:25:29)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "CRYSTAL_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "CRYSTAL_2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_638470")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CFS-20632768HZFB")
+)
+
+
+(part "CFS-20632768HZFB"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-03-08:25:29)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "CFS-20632768HZFB")
+    (pinAssignRef "ECS_638470")
+    (interface
+        (port "1" (symbPinId 1) (portName "CRYSTAL_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "CRYSTAL_2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Y")
+    (property "description" "Crystals 32.768KHZ CYLINDER T/H - 12.5pF - 5ppm")
+    (property "Mouser_Part_Number" "695-CFS-20632768HZFB")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Citizen-FineDevice/CFS-20632768HZFB?qs=rkhjVJ6%2F3EJx8sV85iIJiw%3D%3D")
+    (property "Manufacturer_Name" "CITIZEN FINEDEVICE")
+    (property "Manufacturer_Part_Number" "CFS-20632768HZFB")
+    (property "Datasheet_Link" "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf")
+    (property "compAreaTopHeight" 6.2)
+)
+
+

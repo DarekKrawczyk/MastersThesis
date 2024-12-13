@@ -1,0 +1,9 @@
+Manufacturer=MCC
+PartNumber=SK1045-LTP
+PartCategory=Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=2.1
+Released=2024-01-09 10:52:30
+Downloaded=2024-04-22 19:42:49
+3D=Y

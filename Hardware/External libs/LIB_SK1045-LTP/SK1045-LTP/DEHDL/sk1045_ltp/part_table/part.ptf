@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SK1045_LTP'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "MCC", "SK1045-LTP" (!) = "", "DIOM7959X262N", "Diodes Moulded", "833-SK1045-LTP", "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SK1045-LTP?qs=aP1CjGhiNiEt8z%252BW1kWzBQ%3D%3D", "Schottky Barrier Rectifiers", "https://www.mccsemi.com/pdf/Products/SK1045-L(DO-214AB).pdf", "2.62 mm"
+END_PART
+
+END.

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/841149/1279352/2.50/3/4/Schottky Diode/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r381_232" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="91.338582677164" height="150" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="99.212598425196" height="157.87401574803" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="91.338582677164" height="150" />
+  </padstyle>
+  <padstyle name="r1100_965" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="379.92125984252" height="433.07086614173" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="387.79527559055" height="440.94488188976" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="379.92125984252" height="433.07086614173" />
+  </padstyle>
+  <footprint name="6TQ045S" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r381_232" originx="-99.409448818896" originy="-191.33858267716" rotation="0" />
+    <pcbpin number="2" name="2" style="r1100_965" originx="0" originy="191.33858267716" rotation="90" />
+    <pcbpin number="3" name="3" style="r381_232" originx="99.409448818896" originy="-191.33858267716" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-200" originy="178.74015748031" endx="200" endy="178.74015748031" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="200" originy="178.74015748031" endx="200" endy="-178.74015748031" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="200" originy="-178.74015748031" endx="-200" endy="-178.74015748031" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-200" originy="-178.74015748031" endx="-200" endy="178.74015748031" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-255.90551181102" originy="420.66929133858" endx="255.90551181102" endy="420.66929133858" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="255.90551181102" originy="420.66929133858" endx="255.90551181102" endy="-344.01574803149" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="255.90551181102" originy="-344.01574803149" endx="-255.90551181102" endy="-344.01574803149" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-255.90551181102" originy="-344.01574803149" endx="-255.90551181102" endy="420.66929133858" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="200" originy="-7.8740157480314" endx="200" endy="-178.74015748031" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="200" originy="-178.74015748031" endx="153.54330708661" endy="-178.74015748031" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-200" originy="-7.8740157480314" endx="-200" endy="-178.74015748031" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-200" originy="-178.74015748031" endx="-153.54330708661" endy="-178.74015748031" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-43.307086614173" originy="-178.74015748031" endx="47.244094488188" endy="-178.74015748031" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-99.409448818896" originy="-299.21259842519" endx="-99.409448818896" endy="-299.21259842519" width="11.811023622047" />
+    <arc layer="TOP_SILKSCREEN" originx="-104.84251968504" originy="-299.21259842519" startangle=".0" sweepangle="180.0" radius="5.3937007874015" width="11.811023622047" />
+    <line layer="TOP_SILKSCREEN" originx="-110.23622047244" originy="-299.21259842519" endx="-110.23622047244" endy="-299.21259842519" width="11.811023622047" />
+    <arc layer="TOP_SILKSCREEN" originx="-104.82283464567" originy="-299.19291338582" startangle="180.0" sweepangle="180.0" radius="5.4133858267716" width="11.811023622047" />
+  </footprint>
+  <symbol name="6TQ045S" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1000" endy="100" width="0" />
+    <line originx="1000" originy="-200" endx="1000" endy="100" width="0" />
+    <line originx="1000" originy="-200" endx="200" endy="-200" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-200" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="N/C" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="1000" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="970" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="BASE_K" />
+      <text name="pindes" originx="1060" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="A" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+  </symbol>
+  <component name="6TQ045S" designatorprefix="D" height="190.15748031496" footprint="6TQ045S">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="N/C" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="BASE_K" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A" />
+    <attached_symbol gate="1" name="6TQ045S" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.vishay.com/docs/94945/vs-6tqs-m3.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Schottky Diodes &amp; Rectifiers 6.0 Amp 45 Volt" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="844-6TQ045S" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/6TQ045S?qs=hRM9be3AO9WvNyITjsbs0A%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Vishay" />
+    <text name="Manufacturer_Part_Number" originx="1050" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="6TQ045S" />
+  </component>
+</quadcept_library>

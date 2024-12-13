@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '7440310047'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Wurth Elektronik", "7440310047" (!) = "", "WE-TPC_381692", "Other", "710-7440310047", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7440310047?qs=XJfXErqHgA4kJb%252BwT4RLSw%3D%3D", "Shielded Tiny Power Inductor WE-TPC", ""
+END_PART
+
+END.

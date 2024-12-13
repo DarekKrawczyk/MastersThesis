@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12831846"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-25-15:53:33)
+    (utime 2023-06-22-10:55:39)
+    (interface
+        (port "1" (symbPinId 2) (portType INOUT))
+        (port "2" (symbPinId 1) (portType INOUT))
+    )
+    (property "symbolName" "150283DS73103")
+)
+
+
+(pinAssign "ECS_12831846"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-25-15:53:33)
+    (utime 2023-06-22-10:55:39)
+    (interface
+        (port "1" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "K") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12831846")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "150283DS73103")
+)
+
+
+(part "150283DS73103"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-25-15:53:33)
+    (utime 2023-06-22-10:55:39)
+    (packageRef "150283DS73103")
+    (pinAssignRef "ECS_12831846")
+    (interface
+        (port "1" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "K") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "Standard LEDs - SMD WL-SMTW SMT Mono-color TOP LED waterclear Horticul")
+    (property "Mouser_Part_Number" "710-150283DS73103")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150283DS73103/?qs=GedFDFLaBXFC8uVfOF%252Bhgw%3D%3D")
+    (property "Manufacturer_Name" "Wurth Elektronik")
+    (property "Manufacturer_Part_Number" "150283DS73103")
+    (property "Datasheet_Link" "https://www.mouser.jp/datasheet/2/445/150283DS73103-1838914.pdf")
+    (property "compAreaTopHeight" 0.85)
+)
+
+

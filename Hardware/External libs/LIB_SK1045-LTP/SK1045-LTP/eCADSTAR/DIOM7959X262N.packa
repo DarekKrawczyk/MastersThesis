@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SK1045-LTP"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-09-10:52:30)
+    (mountForm default
+        (footprintRef "DIOM7959X262N")
+        (spec "System")
+    )
+)

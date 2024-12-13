@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model A8513KLYTR-T
+#/15717798/1280117/2.50/11/2/Integrated Circuit
+DEF A8513KLYTR-T IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "A8513KLYTR-T" 1250 200 50 H V L CNN
+F2 "SOP50P488X106-11N" 1250 100 50 H I L CNN
+F3 "http://www.allegromicro.com/~/media/files/datasheets/a8513-datasheet.pdf" 1250 0 50 H I L CNN
+F4 "Backlight Driver For Small/Medium Size LCDs" 1250 -100 50 H I L CNN "Description"
+F5 "1.06" 1250 -200 50 H I L CNN "Height"
+F6 "A8513KLYTR-T" 1250 -300 50 H I L CNN "Arrow Part Number"
+F7 "" 1250 -400 50 H I L CNN "Arrow Price/Stock"
+F8 "Allegro Microsystems" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "A8513KLYTR-T" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SW 1 0 0 200 R 50 50 0 0 P
+X OVP 2 0 -100 200 R 50 50 0 0 P
+X VIN 3 0 -200 200 R 50 50 0 0 P
+X ~FAULT 4 0 -300 200 R 50 50 0 0 P
+X VDD 5 0 -400 200 R 50 50 0 0 P
+X GND_2 11 700 -1100 200 U 50 50 0 0 P
+X COMP 10 1400 0 200 L 50 50 0 0 P
+X GND_1 9 1400 -100 200 L 50 50 0 0 P
+X ISET 8 1400 -200 200 L 50 50 0 0 P
+X EN/PWM 7 1400 -300 200 L 50 50 0 0 P
+X LED 6 1400 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -900 200 -900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

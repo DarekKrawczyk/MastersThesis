@@ -1,0 +1,18 @@
+.LTC2439-1IGN_PBF :1 ;LINEAR TECHNOLOGY - LTC2439-1IGN#PBF - Analogue to Digital Converter, Octal, 16 bit, 6.9 SPS, Differential, Single Ended, SPI, Single
+SOP64P601X175-28N
+*STM IC
+*NGS
+*PLB 1="CH8" 2="CH9" 3="CH10" 4="CH11" 5="CH12" 6="CH13" 7="CH14" 8="CH15" 9="VCC" 10="COM" 11="REF+" 12="REF-" 13="NC_1" 14="NC_2" 15="GND" 16="'CS'" 17="SDO" 18="SCK" 19="FO" 20="SDI" 21="CH0" 22="CH1" 23="CH2" 24="CH3" 25="CH4" 26="CH5" 27="CH6" 28="CH7"
+*MXP 28
+*DFN LTC2439-1IGN_PBF
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LTC2439-1IGN#PBF)
+~!Mouser Part Number (584-LTC2439-1IGN#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC2439-1IGNPBF?qs=hVkxg5c3xu%2F3ZSVw0cv92Q%3D%3D)
+~!Arrow Part Number (LTC2439-1IGN#PBF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ltc2439-1ignpbf/analog-devices?region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00091692.pdf)
+~!Height (1.75mm)
+~!3D_Model (LTC2439-1IGN#PBF)
+LTC2439-1IGN_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 

@@ -1,0 +1,16 @@
+.P0846SNL :1 ;Fixed Inductors 260KHZ SWITCHER IND
+P0846SNL
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN P0846SNL
+~!Mouser Part Number (673-P0846SNL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/P0846SNL?qs=GY25Nw16qaXiqUAx%252BvLTgw%3D%3D)
+~!Manufacturer_Name (Pulse Electronics)
+~!Manufacturer_Part_Number (P0846SNL)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/dk/DKDS-10/182482.pdf)
+~!Height (10.16mm)
+~!3D_Model (P0846SNL)
+P0846SNL
+1.1!U 2.1!U 

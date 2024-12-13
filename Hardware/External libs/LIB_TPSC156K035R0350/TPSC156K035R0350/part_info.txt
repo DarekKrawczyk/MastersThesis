@@ -1,0 +1,9 @@
+Manufacturer=Kyocera AVX
+PartNumber=TPSC156K035R0350
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=2.1
+Released=2017-01-11 13:10:18
+Downloaded=2024-04-14 18:13:45
+3D=Y

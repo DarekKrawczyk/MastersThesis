@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'P0846SNL'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Pulse Electronics", "P0846SNL" (!) = "", "P0846SNL", "Other", "673-P0846SNL", "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/P0846SNL?qs=GY25Nw16qaXiqUAx%252BvLTgw%3D%3D", "Fixed Inductors 260KHZ SWITCHER IND", "https://datasheet.datasheetarchive.com/originals/dk/DKDS-10/182482.pdf", "10.16 mm"
+END_PART
+
+END.

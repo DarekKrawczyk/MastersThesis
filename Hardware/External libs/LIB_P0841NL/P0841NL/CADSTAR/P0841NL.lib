@@ -1,0 +1,16 @@
+.P0841NL :1 ;Pulse 22.8 uH +/-20% Leaded Inductor, 4.9A Idc, 0.036 Rdc
+P0841NL
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN P0841NL
+~!Mouser Part Number (673-P0841NL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/P0841NL?qs=mjAxHPhY7UfnMfKCvknziA%3D%3D)
+~!Manufacturer_Name (Pulse Electronics)
+~!Manufacturer_Part_Number (P0841NL)
+~!Link Datasheet (https://www.arrow.com/en/products/p0841nl/pulse-electronics-corporation)
+~!Height (24.13mm)
+~!3D_Model (P0841NL)
+P0841NL
+1.1!U 2.1!U 

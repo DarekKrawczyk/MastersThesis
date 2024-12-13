@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6TQ045S
+D Schottky Diodes & Rectifiers 6.0 Amp 45 Volt
+K
+F https://www.vishay.com/docs/94945/vs-6tqs-m3.pdf
+$ENDCMP
+#
+#End Doc Library

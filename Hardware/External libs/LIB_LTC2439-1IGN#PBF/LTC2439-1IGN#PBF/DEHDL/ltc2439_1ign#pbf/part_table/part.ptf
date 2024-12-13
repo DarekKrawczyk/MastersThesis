@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC2439_1IGN#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LTC2439-1IGN#PBF" (!) = "", "SOP64P601X175-28N", "Small Outline Packages", "584-LTC2439-1IGN#PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC2439-1IGNPBF?qs=hVkxg5c3xu%2F3ZSVw0cv92Q%3D%3D", "LTC2439-1IGN#PBF", "https://www.arrow.com/en/products/ltc2439-1ignpbf/analog-devices?region=nac", "LINEAR TECHNOLOGY - LTC2439-1IGN#PBF - Analogue to Digital Converter, Octal, 16 bit, 6.9 SPS, Differential, Single Ended, SPI, Single", "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00091692.pdf", "1.75 mm"
+END_PART
+
+END.

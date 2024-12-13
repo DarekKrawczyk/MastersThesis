@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/391377/1279352/2.50/2/0/Capacitor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r241.3_226.06" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="88.999999999999" height="94.999999999999" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="96.87401574803" height="102.87401574803" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="88.999999999999" height="94.999999999999" />
+  </padstyle>
+  <footprint name="CAPCP6032X280N" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r241.3_226.06" originx="-83.999999999999" originy="0" rotation="0" />
+    <pcbpin number="2" name="2" style="r241.3_226.06" originx="83.999999999999" originy="0" rotation="0" />
+    <line layer="TOP_SILKSCREEN" originx="122" originy="60.999999999999" endx="122" endy="66.999999999999" width="5.9999999999999" />
+    <line layer="TOP_SILKSCREEN" originx="-122" originy="-60.999999999999" endx="-122" endy="-66.999999999999" width="5.9999999999999" />
+    <line layer="TOP_SILKSCREEN" originx="-169" originy="0" endx="-199" endy="0" width="5.9999999999999" />
+    <line layer="TOP_SILKSCREEN" originx="-184" originy="15" endx="-184" endy="-15" width="5.9999999999999" />
+    <line layer="TOP_SILKSCREEN" originx="-122" originy="-66.999999999999" endx="122" endy="-66.999999999999" width="5.9999999999999" />
+    <line layer="TOP_SILKSCREEN" originx="122" originy="-66.999999999999" endx="122" endy="-60.999999999999" width="5.9999999999999" />
+    <line layer="TOP_SILKSCREEN" originx="122" originy="66.999999999999" endx="-122" endy="66.999999999999" width="5.9999999999999" />
+    <line layer="TOP_SILKSCREEN" originx="-122" originy="66.999999999999" endx="-122" endy="60.999999999999" width="5.9999999999999" />
+    <line layer="TOP_ASSEMBLY" originx="-169" originy="0" endx="-199" endy="0" width="5.9999999999999" />
+    <line layer="TOP_ASSEMBLY" originx="-184" originy="15" endx="-184" endy="-15" width="5.9999999999999" />
+    <line layer="TOP_ASSEMBLY" originx="-122" originy="-66.999999999999" endx="122" endy="-66.999999999999" width="5.9999999999999" />
+    <line layer="TOP_ASSEMBLY" originx="122" originy="-66.999999999999" endx="122" endy="66.999999999999" width="5.9999999999999" />
+    <line layer="TOP_ASSEMBLY" originx="122" originy="66.999999999999" endx="-122" endy="66.999999999999" width="5.9999999999999" />
+    <line layer="TOP_ASSEMBLY" originx="-122" originy="66.999999999999" endx="-122" endy="-66.999999999999" width="5.9999999999999" />
+  </footprint>
+  <symbol name="TPSC156K035R0350" originx="0" originy="0">
+    <line originx="220" originy="100" endx="220" endy="-100" width="0" />
+    <line originx="280" originy="100" endx="280" endy="-100" width="0" />
+    <line originx="200" originy="0" endx="220" endy="0" width="0" />
+    <line originx="280" originy="0" endx="300" endy="0" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-10" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="C1" />
+      <text name="pindes" originx="0" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="300" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="500" originy="-10" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="C2" />
+      <text name="pindes" originx="500" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+  </symbol>
+  <component name="TPSC156K035R0350" designatorprefix="C" height="0" footprint="CAPCP6032X280N">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="C1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="C2" />
+    <attached_symbol gate="1" name="TPSC156K035R0350" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://componentsearchengine.com/Datasheets/1/TPSC156K035R0350.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="AVX 15uF Solid Electrolytic Electrolytic Capacitor, 35 V dc +/-10%, TPS Series" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="581-TPSC156K035R0350" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TPSC156K035R0350" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Kyocera AVX" />
+    <text name="Manufacturer_Part_Number" originx="350" originy="150" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="TPSC156K035R0350" />
+  </component>
+</quadcept_library>

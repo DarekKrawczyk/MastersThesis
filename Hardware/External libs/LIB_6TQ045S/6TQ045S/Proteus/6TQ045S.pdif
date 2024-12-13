@@ -1,0 +1,123 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "6TQ045S"
+   (description "Schottky Diodes & Rectifiers 6.0 Amp 45 Volt")
+   (family "DIO")
+   (package "6TQ045S")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/94945/vs-6tqs-m3.pdf")
+   (attribute "Geometry.Height" "4.83mm")
+   (attribute "Mouser Part Number" "844-6TQ045S")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/6TQ045S?qs=hRM9be3AO9WvNyITjsbs0A%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "6TQ045S")
+   (gate
+    (symbol "6TQ045S")
+    (pin "N/C" 1 NC)
+    (pin "BASE_K" 2 PS)
+    (pin "A" 3 PS)
+   )
+  )
+  (symbol "6TQ045S"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "6TQ045S"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -5.08 4.54)
+      (pt 5.08 4.54)
+      (pt 5.08 -4.54)
+      (pt -5.08 -4.54)
+      (pt -5.08 4.54))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.5 10.685)
+      (pt 6.5 10.685)
+      (pt 6.5 -8.738)
+      (pt -6.5 -8.738)
+      (pt -6.5 10.685))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 5.08 -0.2)
+      (pt 5.08 -4.54)
+      (pt 3.9 -4.54))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -5.08 -0.2)
+      (pt -5.08 -4.54)
+      (pt -3.9 -4.54))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.1 -4.54)
+      (pt 1.2 -4.54))))
+   (layer TSLK
+    (graphic
+     (stroke 0.3)
+     (path
+      (closed true)
+      (pt -2.525 -7.6)
+      (arc (pt -2.525 -7.600) (pt -2.800 -7.737) (pt -2.525 -7.463) (start 180.0) (sweep .0))
+      (pt -2.8 -7.6)
+      (arc (pt -2.800 -7.600) (pt -2.800 -7.737) (pt -2.525 -7.462) (start 180.0) (sweep 180.0))
+      (pt -2.525 -7.6))))
+   (leg 1 (pt -2.525 -4.860) (padstack 0))
+   (leg 2 (pt 0.000 4.860) (padstack 2))
+   (leg 3 (pt 2.525 -4.860) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.320 3.810 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 9.650 11.000 0 0 0.000))
+   )
+  )
+ )
+)

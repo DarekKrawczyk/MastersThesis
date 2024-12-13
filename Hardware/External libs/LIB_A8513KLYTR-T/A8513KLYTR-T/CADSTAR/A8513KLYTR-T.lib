@@ -1,0 +1,16 @@
+.A8513KLYTR-T :1 ;Backlight Driver For Small/Medium Size LCDs
+SOP50P488X106-11N
+*STM IC
+*NGS
+*PLB 1="SW" 2="OVP" 3="VIN" 4="'FAULT'" 5="VDD" 6="LED" 7="EN/PWM" 8="ISET" 9="GND_1" 10="COMP" 11="GND_2"
+*MXP 11
+*DFN A8513KLYTR-T
+~!Arrow Part Number (A8513KLYTR-T)
+~!Arrow Price/Stock (-)
+~!Manufacturer_Name (Allegro Microsystems)
+~!Manufacturer_Part_Number (A8513KLYTR-T)
+~!Link Datasheet (http://www.allegromicro.com/~/media/files/datasheets/a8513-datasheet.pdf)
+~!Height (1.06mm)
+~!3D_Model (A8513KLYTR-T)
+A8513KLYTR-T
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 11.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

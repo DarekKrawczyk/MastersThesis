@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "P0846SNL"
+   (description "Fixed Inductors 260KHZ SWITCHER IND")
+   (family "IND")
+   (package "P0846SNL")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-10/182482.pdf")
+   (attribute "Geometry.Height" "10.16mm")
+   (attribute "Mouser Part Number" "673-P0846SNL")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/P0846SNL?qs=GY25Nw16qaXiqUAx%252BvLTgw%3D%3D")
+   (attribute "Manufacturer_Name" "Pulse Electronics")
+   (attribute "Manufacturer_Part_Number" "P0846SNL")
+   (gate
+    (symbol "P0846SNL")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "P0846SNL"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 200 0) (pt 200 -52) (pt 300 48) (start -175.4) (sweep 177.7)) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 300 0) (pt 300 -52) (pt 400 48) (start -175.4) (sweep 177.7)) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 0) (pt 400 -52) (pt 500 48) (start -175.4) (sweep 177.7)) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 500 0) (pt 500 -52) (pt 600 48) (start -175.4) (sweep 177.7)) (pt 600 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "P0846SNL"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.51 -8.89)
+      (pt 8.51 -8.89)
+      (pt 8.51 8.89)
+      (pt -8.51 8.89)
+      (pt -8.51 -8.89))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.51 9.89)
+      (pt 9.51 9.89)
+      (pt 9.51 -9.89)
+      (pt -9.51 -9.89)
+      (pt -9.51 9.89))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.51 -8)
+      (pt -8.5 -8.89)
+      (pt 8.51 -8.89)
+      (pt 8.51 -8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.5 8)
+      (pt -8.5 8.89)
+      (pt 8.5 8.89)
+      (pt 8.5 8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -9 0)
+      (arc (pt -9.000 0.000) (pt -9.000 -0.050) (pt -8.900 0.050) (start 180.0) (sweep 180.0))
+      (pt -8.9 0)
+      (arc (pt -8.900 0.000) (pt -9.000 -0.050) (pt -8.900 0.050) (start 180.0) (sweep .0))
+      (pt -9 0)
+      (arc (pt -9.000 0.000) (pt -9.000 -0.050) (pt -8.900 0.050) (start 180.0) (sweep 180.0))
+      (pt -8.9 0))))
+   (leg 1 (pt -7.495 0.000) (padstack 0))
+   (leg 2 (pt 7.495 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (ovalf 1.520 15.750 0 90.000))
+   )
+   (model "P0846SNL.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

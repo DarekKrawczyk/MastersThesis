@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CFS-20632768HZFB"
+   (description "Crystals 32.768KHZ CYLINDER T/H - 12.5pF - 5ppm")
+   (family "OSC")
+   (package "CFS20632768HZFB")
+   (attribute "Datasheet Link" "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf")
+   (attribute "Geometry.Height" "6.2mm")
+   (attribute "Mouser Part Number" "695-CFS-20632768HZFB")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Citizen-FineDevice/CFS-20632768HZFB?qs=rkhjVJ6%2F3EJx8sV85iIJiw%3D%3D")
+   (attribute "Manufacturer_Name" "CITIZEN FINEDEVICE")
+   (attribute "Manufacturer_Part_Number" "CFS-20632768HZFB")
+   (gate
+    (symbol "CFS-20632768HZFB")
+    (pin "CRYSTAL_2" 2 PS)
+    (pin ""  PS)
+   )
+  )
+  (symbol "CFS-20632768HZFB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 120 100) (pt 120 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 140) (pt 160 -140) (pt 240 -140) (pt 240 140) (pt 160 140) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 120 0) (pt 100 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CFS20632768HZFB"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.45 1.95)
+      (pt 2.45 1.95)
+      (pt 2.45 -1.95)
+      (pt -1.45 -1.95)
+      (pt -1.45 1.95))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.45 0)
+      (arc (pt -0.450 0.000) (pt -0.450 -0.950) (pt 1.450 0.950) (start 180.0) (sweep 180.0))
+      (pt 1.45 0)
+      (arc (pt 1.450 0.000) (pt -0.450 -0.950) (pt 1.450 0.950) (start 180.0) (sweep .0))
+      (pt -0.45 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 0)
+      (arc (pt -1.000 0.000) (pt -1.000 -0.050) (pt -0.900 0.050) (start 180.0) (sweep 180.0))
+      (pt -0.9 0)
+      (arc (pt -0.900 0.000) (pt -1.000 -0.050) (pt -0.900 0.050) (start 180.0) (sweep .0))
+      (pt -1 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 1.000 0.000) (padstack 2))
+   (padstack 0
+    (hole 0.46)
+    (plated true)
+    (pad (layer TCOP) (square 0.800))
+    (pad (layer INNER) (round 0.800))
+    (pad (layer BCOP) (square 0.800))
+   )
+   (padstack 2
+    (hole 0.46)
+    (plated true)
+    (pad (layer TCOP) (round 0.800))
+    (pad (layer INNER) (round 0.800))
+    (pad (layer BCOP) (round 0.800))
+   )
+   (model "CFS-20632768HZFB.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SK1045-LTP
+D Schottky Barrier Rectifiers
+K
+F https://www.mccsemi.com/pdf/Products/SK1045-L(DO-214AB).pdf
+$ENDCMP
+#
+#End Doc Library

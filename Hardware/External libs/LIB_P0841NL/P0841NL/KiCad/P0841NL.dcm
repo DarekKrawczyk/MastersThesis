@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP P0841NL
+D Pulse 22.8 uH +/-20% Leaded Inductor, 4.9A Idc, 0.036 Rdc
+K
+F https://www.arrow.com/en/products/p0841nl/pulse-electronics-corporation
+$ENDCMP
+#
+#End Doc Library

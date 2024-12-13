@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_15542692"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-09-10:52:30)
+    (utime 2024-03-13-13:00:10)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SK1045-LTP")
+)
+
+
+(pinAssign "ECS_15542692"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-09-10:52:30)
+    (utime 2024-03-13-13:00:10)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15542692")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SK1045-LTP")
+)
+
+
+(part "SK1045-LTP"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-09-10:52:30)
+    (utime 2024-03-13-13:00:10)
+    (packageRef "SK1045-LTP")
+    (pinAssignRef "ECS_15542692")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Schottky Barrier Rectifiers")
+    (property "Mouser_Part_Number" "833-SK1045-LTP")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SK1045-LTP?qs=aP1CjGhiNiEt8z%252BW1kWzBQ%3D%3D")
+    (property "Manufacturer_Name" "MCC")
+    (property "Manufacturer_Part_Number" "SK1045-LTP")
+    (property "Datasheet_Link" "https://www.mccsemi.com/pdf/Products/SK1045-L(DO-214AB).pdf")
+    (property "compAreaTopHeight" 2.62)
+)
+
+

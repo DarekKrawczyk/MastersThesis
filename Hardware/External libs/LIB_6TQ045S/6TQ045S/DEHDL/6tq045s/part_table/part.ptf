@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '6TQ045S'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "6TQ045S" (!) = "", "6TQ045S", "Other", "844-6TQ045S", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/6TQ045S?qs=hRM9be3AO9WvNyITjsbs0A%3D%3D", "Schottky Diodes & Rectifiers 6.0 Amp 45 Volt", "https://www.vishay.com/docs/94945/vs-6tqs-m3.pdf", "4.83 mm"
+END_PART
+
+END.

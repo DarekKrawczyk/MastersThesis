@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CFS_20632768HZFB'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CITIZEN FINEDEVICE", "CFS-20632768HZFB" (!) = "", "CFS20632768HZFB", "Other", "695-CFS-20632768HZFB", "https://www.mouser.co.uk/ProductDetail/Citizen-FineDevice/CFS-20632768HZFB?qs=rkhjVJ6%2F3EJx8sV85iIJiw%3D%3D", "Crystals 32.768KHZ CYLINDER T/H - 12.5pF - 5ppm", "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf", "6.2 mm"
+END_PART
+
+END.

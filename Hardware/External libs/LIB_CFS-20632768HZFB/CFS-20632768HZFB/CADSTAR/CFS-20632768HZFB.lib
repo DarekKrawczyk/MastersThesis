@@ -1,0 +1,16 @@
+.CFS-20632768HZFB :1 ;Crystals 32.768KHZ CYLINDER T/H - 12.5pF - 5ppm
+CFS20632768HZFB
+*STM Y
+*NGS
+*PLB 1="CRYSTAL_1" 2="CRYSTAL_2"
+*MXP 2
+*DFN CFS-20632768HZFB
+~!Mouser Part Number (695-CFS-20632768HZFB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Citizen-FineDevice/CFS-20632768HZFB?qs=rkhjVJ6%2F3EJx8sV85iIJiw%3D%3D)
+~!Manufacturer_Name (CITIZEN FINEDEVICE)
+~!Manufacturer_Part_Number (CFS-20632768HZFB)
+~!Link Datasheet (http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf)
+~!Height (6.2mm)
+~!3D_Model (CFS-20632768HZFB)
+CFS-20632768HZFB
+1.1!U 2.1!U 

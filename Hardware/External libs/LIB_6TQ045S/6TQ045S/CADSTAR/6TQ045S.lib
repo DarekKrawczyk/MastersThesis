@@ -1,0 +1,15 @@
+.6TQ045S :1 ;Schottky Diodes & Rectifiers 6.0 Amp 45 Volt
+"6TQ045S"
+*STM D
+*NGS
+*PLB 1="N/C" 2="BASE K" 3="A"
+*MXP 3
+*DFN 6TQ045S
+~!Mouser Part Number (844-6TQ045S)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/6TQ045S?qs=hRM9be3AO9WvNyITjsbs0A%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (6TQ045S)
+~!Link Datasheet (https://www.vishay.com/docs/94945/vs-6tqs-m3.pdf)
+~!Height (4.83mm)
+"6TQ045S"
+1.1!U 2.1!U 3.1!U 

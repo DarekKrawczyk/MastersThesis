@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "P0846SNL"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-08-19-10:52:40)
+    (mountForm default
+        (footprintRef "P0846SNL")
+        (spec "System")
+    )
+)

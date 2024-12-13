@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPSC156K035R0350'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Kyocera AVX", "TPSC156K035R0350" (!) = "", "CAPCP6032X280N", "Other", "581-TPSC156K035R0350", "https://www.mouser.com/Search/Refine.aspx?Keyword=581-TPSC156K035R0350", "AVX 15uF Solid Electrolytic Electrolytic Capacitor, 35 V dc +/-10%, TPS Series", "https://componentsearchengine.com/Datasheets/1/TPSC156K035R0350.pdf"
+END_PART
+
+END.

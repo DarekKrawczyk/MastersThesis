@@ -1,0 +1,9 @@
+Manufacturer=Pulse Electronics
+PartNumber=P0841NL
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2020-06-07 17:54:08
+Downloaded=2024-04-16 14:43:48
+3D=Y

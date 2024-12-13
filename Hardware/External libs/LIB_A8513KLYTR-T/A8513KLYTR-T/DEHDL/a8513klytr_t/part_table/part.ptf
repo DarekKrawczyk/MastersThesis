@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'A8513KLYTR_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Allegro Microsystems", "A8513KLYTR-T" (!) = "", "SOP50P488X106-11N", "Small Outline Packages", "A8513KLYTR-T", "", "Backlight Driver For Small/Medium Size LCDs", "http://www.allegromicro.com/~/media/files/datasheets/a8513-datasheet.pdf", "1.06 mm"
+END_PART
+
+END.

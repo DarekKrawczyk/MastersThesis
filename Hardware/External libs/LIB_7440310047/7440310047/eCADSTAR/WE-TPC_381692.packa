@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "7440310047"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "WE-TPC_381692")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=150283DS73103
+PartCategory=LED
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2020-10-25 15:53:33
+Downloaded=2023-12-10 12:40:45
+3D=Y

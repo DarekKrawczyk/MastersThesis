@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A8513KLYTR-T
+D Backlight Driver For Small/Medium Size LCDs
+K
+F http://www.allegromicro.com/~/media/files/datasheets/a8513-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=6TQ045S
+PartCategory=Schottky Diode
+PackageCategory=Other
+PinCount=3
+Version=3.4
+Released=2018-05-20 22:41:18
+Downloaded=2024-04-14 14:57:14
+3D=N

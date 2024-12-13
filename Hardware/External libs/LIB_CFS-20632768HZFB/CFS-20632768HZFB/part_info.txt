@@ -1,0 +1,9 @@
+Manufacturer=CITIZEN FINEDEVICE
+PartNumber=CFS-20632768HZFB
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2022-02-03 08:25:29
+Downloaded=2024-01-14 13:15:13
+3D=Y

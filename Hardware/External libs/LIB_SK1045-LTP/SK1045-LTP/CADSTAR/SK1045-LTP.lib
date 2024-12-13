@@ -1,0 +1,16 @@
+.SK1045-LTP :1 ;Schottky Barrier Rectifiers
+DIOM7959X262N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SK1045-LTP
+~!Mouser Part Number (833-SK1045-LTP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SK1045-LTP?qs=aP1CjGhiNiEt8z%252BW1kWzBQ%3D%3D)
+~!Manufacturer_Name (MCC)
+~!Manufacturer_Part_Number (SK1045-LTP)
+~!Link Datasheet (https://www.mccsemi.com/pdf/Products/SK1045-L(DO-214AB).pdf)
+~!Height (2.62mm)
+~!3D_Model (SK1045-LTP)
+SK1045-LTP
+1.1!U 2.1!U 
