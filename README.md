@@ -45,21 +45,21 @@ Created prototype consists of several custom made parts, where each one plays cr
 
 ## Folder structure
 ```
-**/Assets**
-  └── images            # Contains all image files used in the project
-**/Hardware**
-  ├── **/External_Libs**     # Libraries for modules used in the schematics
-  ├── **/Modules**           # Projects for developed modules
-  │   ├── **/LED_Driver**    # Drivers for controlling the LED panel
-  │   ├── **/LED_Panel**     # Custom LED panel design and components
-  │   ├── **/LTC2439_Eval_Board**  # High-accuracy ADC module (not used in the project)
-  │   └── **/Main_Board**    # Main board design and schematics
+/Assets
+  └── images                        # Contains all image files used in the project
+/Hardware
+  ├── /External_Libs                # Libraries for modules used in the schematics
+  ├── /Modules                      # Projects for developed modules
+  │   ├── /LED_Driver               # Drivers for controlling the LED panel
+  │   ├── /LED_Panel                # Custom LED panel design and components
+  │   ├── /LTC2439_Eval_Board       # High-accuracy ADC module (not used in the project)
+  │   └── /Main_Board               # Main board design and schematics
   └── PartsValuesCalculation.xlsx   # Calculation of electrical component values
-**/Software**
-  ├── **/Modules**           # Libraries written for the system
-  └── main.py            # Example code for saving data from the device
-**/Thesis**
-  └── thesis_files       # Files related to the thesis documentation
+/Software
+  ├── /Modules                      # Libraries written for the system
+  └── main.py                       # Example code for saving data from the device
+/Thesis
+  └── thesis_files                  # Files related to the thesis documentation
 ```
 ---
 
